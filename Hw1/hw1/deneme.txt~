@@ -1,0 +1,19 @@
+mov r1,10 ;
+jmp 9;
+sub r1,1; for 1.sh loop decrease
+JMP r1	,6;
+JMP 2 
+prn sonuc:;
+prn r3;
+hlt;
+MOV R1, R2   	;
+ADD R3,R1
+SUB R2	 ,	1; for 2.sh loop decrease
+JMP R2,3    ;
+JMP 10
+;
+
+
+
+
+

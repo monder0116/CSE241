@@ -1,0 +1,78 @@
+mov #0,30 ;
+mov #1,23
+mov #2,4
+mov #3,56
+mov #4,34
+mov #5,56
+mov #6,89
+mov #7,32
+mov #8,45
+mov #9,25
+mov r3,11 ; dongü baslangıc
+mov #0,r1
+sub r1,#1
+jpn r1,19
+mov #1,r1
+mov #0,r2
+mov r1,#0
+mov r2,#1 ; 0,1 bitişi
+mov #1,r1
+sub r1,#2
+jpn r1,26
+mov #2,r1
+mov #1,r2
+mov r1,#1
+mov r2,#2 ; 1,2 bitişi
+mov #2,r1
+sub r1,#3
+jpn r1,33
+mov #3,r1
+mov #2,r2
+mov r1,#2
+mov r2,#3 ; 2,3 bitişi
+mov #3,r1
+sub r1,#4
+jpn r1,40
+mov #4,r1
+mov #3,r2
+mov r1,#3
+mov r2,#4 ; 3,4 bitişi
+mov #4,r1
+sub r1,#5
+jpn r1,47
+mov #5,r1
+mov #4,r2
+mov r1,#4
+mov r2,#5 ; 4,5 bitişi
+mov #5,r1
+sub r1,#6
+jpn r1,54
+mov #6,r1
+mov #5,r2
+mov r1,#5
+mov r2,#6 ; 5,6 bitişi
+mov #6,r1
+sub r1,#7
+jpn r1,61
+mov #7,r1
+mov #6,r2
+mov r1,#6
+mov r2,#7 ; 6,7 bitişi
+mov #7,r1
+sub r1,#8
+jpn r1,68
+mov #8,r1
+mov #7,r2
+mov r1,#7
+mov r2,#8 ; 7,8 bitişi
+mov #8,r1
+sub r1,#9
+jpn r1,75
+mov #9,r1
+mov #8,r2
+mov r1,#8
+mov r2,#9 ; 8,9 bitişi
+sub r3,1
+jmp r3,78
+jmp 12 
+hlt

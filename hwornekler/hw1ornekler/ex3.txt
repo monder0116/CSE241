@@ -1,0 +1,9 @@
+mov r1,5 ;	5 den 1 e kadar olan sayıların toplamı
+add r2,r1
+prn r2
+sub r1,1;
+jmp r1,7
+jmp 2
+hlt;
+
+

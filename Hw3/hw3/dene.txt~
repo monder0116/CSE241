@@ -1,0 +1,11 @@
+MOV R1,10 ;find the numbers square to 10
+JMP 7;
+SUB R1,1;
+JMP R1,6;
+JMP 2
+HLT;
+MOV R1,R2;sum loop
+ADD R3,R1;
+SUB R2,1;
+JMP R2,3;
+JMP 8;

@@ -1,0 +1,7 @@
+mov #4,33
+mov #4,r3
+prn r3
+add r3,#4
+prn r3
+hlt
+

@@ -1,0 +1,5 @@
+all:
+	javac -Xlint src.com.hw8.*
+	java hw8._mainTester
+clean:
+	rm *.class

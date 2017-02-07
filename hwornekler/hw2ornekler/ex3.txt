@@ -1,0 +1,6 @@
+mov #32,11
+mov r2,10
+sub r2,#32
+prn r2
+hlt
+

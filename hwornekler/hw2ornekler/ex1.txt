@@ -1,0 +1,5 @@
+mov r1,44
+mov r1,#1
+prn #1
+hlt
+

@@ -1,0 +1,6 @@
+mov r1 ,10;10'dan 1 e kadar sayıların yazılması
+PRN R1
+SUB 		R1, 1 ;
+JMP R1, 	6;
+JMP 2   ;
+hlt ;

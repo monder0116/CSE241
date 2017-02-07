@@ -1,0 +1,6 @@
+mov r1,2
+mov r2,2
+add r1,r2
+prn r1
+hlt
+
